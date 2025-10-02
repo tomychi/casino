@@ -5,4 +5,5 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/casino/', // Cambiá esto por el nombre exacto de tu repo
 });
